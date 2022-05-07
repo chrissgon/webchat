@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.disabled {
+  opacity: 0.8;
+  user-select: none;
+  cursor: no-drop;
+}
+
+.disabled * {
+  pointer-events: none;
+  cursor: no-drop;
+  user-select: none;
+}

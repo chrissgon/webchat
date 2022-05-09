@@ -28,7 +28,7 @@ export default {
     const ID = btoa(new Date().toISOString());
 
     try {
-      socket = new WebSocket("ws://localhost:5000");
+      socket = new WebSocket(`ws://${window.location.hostname}:5000`);
     } catch (e) {
       error.value = true;
     }

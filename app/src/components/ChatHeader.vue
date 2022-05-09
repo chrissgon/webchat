@@ -4,7 +4,7 @@
   >
     <article class="flex items-center">
       <img class="avatar" src="@/assets/img/user-one.png" />
-      <span class="ml-4">Christopher Brendo</span>
+      <span class="ml-4">Grupo da Diversão 😝😂</span>
     </article>
     <aside class="text-slate-400 cursor-pointer">
       <i class="bi bi-heart-fill text-red-700 px-2"></i>
@@ -16,20 +16,8 @@
 </template>
 
 <script>
-import { reactive } from "@vue/reactivity";
 export default {
-  setup() {
-    const user = reactive({
-      active: true,
-      avatar: "one",
-      name: "Christopher Brendo",
-      time: "17:45",
-      message:
-        "Eae parceiro, como vc tá? O pessoal está marcando de sair, vc vai?",
-    });
-
-    return { user };
-  },
+  setup() {},
 };
 </script>
 

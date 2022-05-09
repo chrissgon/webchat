@@ -33,10 +33,10 @@ export default {
       {
         active: true,
         avatar: "one",
-        name: "Christopher Brendo",
+        name: "Grupo da Diversão 😝😂",
         time: "20:45",
         message:
-          "Eae parceiro, como vc tá? O pessoal está marcando de sair, vc vai?",
+          "Falaaa pessoal do grupo, mandem oq quiserem",
       },
       {
         avatar: "two",

@@ -10,7 +10,7 @@
         type="text"
         id="search"
         class="w-full focus:outline-none pl-4"
-        placeholder="Pesquiser um nome ou número"
+        placeholder="Pesquise um nome ou número"
       />
       <i class="bi bi-funnel p-2 px-3 cursor-pointer bg-slate-100 rounded"></i>
     </label>
@@ -75,20 +75,6 @@ export default {
         time: "16:18",
         message:
           "Eu comprei um curso muito bom pela Udemy, depois te passo o link",
-      },
-      {
-        avatar: "one",
-        name: "Eduardo Andrade",
-        time: "15:22",
-        message:
-          "Mas é vdd que ninguém supera ele como ator, meu preferido",
-      },
-      {
-        avatar: "two",
-        name: "Maria de Jesus",
-        time: "12:06",
-        message:
-          "Vc conseguiu comprar as coisas que te pedi no supermecado???",
       },
     ];
 

@@ -1,5 +1,6 @@
 # Web Chat
 ![WebChat](https://i.ibb.co/t2cx8kG/webchat.png)
+<br><br><br>
 Aplicação de chat criada com Vue + Golang + Docker, utilizando conexão Websocket.
 
 ## Clonar Repositório
